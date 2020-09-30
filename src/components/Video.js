@@ -1,6 +1,7 @@
 import React, { useRef, useState } from 'react';
 import './Video.css';
 import myVideo from "../assets/VID_29621228_184120_112.mp4"
+import VideoFooter from './VideoFooter';
 
 function Video() {
   const [playing, setPlaying] = useState(false)
@@ -25,6 +26,8 @@ function Video() {
         src={myVideo}
         loop>
       </video>
+
+      <VideoFooter />
     </div>
   )
 }
