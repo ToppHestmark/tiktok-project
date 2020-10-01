@@ -22,7 +22,7 @@ app.use(express.json());
 app.use((req, res, next) => {
   res.setHeaders('Access-Control-Allow-Origin', '*'),
   res.setHeaders('Access-Control-Allow-Headers', '*')
-  next()
+  next();
 })
 
 // api endpoint
