@@ -8,6 +8,7 @@ import axios from './axios';
 
 function App() {
 
+  // Commented these out to demonstrated the demo video
   // const [videos, setVideos] = useState([]);
 
   // useEffect(() => {
